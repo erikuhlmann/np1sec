@@ -27,6 +27,7 @@
 #include <deque>
 #include <map>
 #include <set>
+#include <functional>
 
 namespace np1sec
 {
