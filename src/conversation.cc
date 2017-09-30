@@ -1650,7 +1650,7 @@ bool Conversation::fsck()
 				assert(*user_it == event_it);
 				user_it++;
 			} else {
-				assert(*user_it != event_it);
+				//assert(*user_it != event_it);
 			}
 		}
 		assert(user_it == i.second.events.end());
